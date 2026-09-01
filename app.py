@@ -11,7 +11,8 @@ if res:
     elif operation == 'Subtraction':
         st.write(num1-num2)
     elif operation == 'Division':
-        st.write(num1/num2)
+        if num2 != 0:
+            st.write(num1/num2)
     elif operation == 'Multiplication':
         st.write(num1*num2)
     # st.write('button is clicked')
